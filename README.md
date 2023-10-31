@@ -6,7 +6,7 @@ Time spent: **6** hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that **displays a scrollable list of cute dogs and their img source, can display in night theme.**
+**Recycler View Plus** is an android app that **displays a scrollable list of cute dogs and their img source, can display in night theme.**
 
 If I had to describe this project in three (3) emojis, they would be: **:blue_heart: :eyes: :dog:**
 
