@@ -13,8 +13,8 @@
 
     <ImageView
         android:id="@+id/petnames_background"
-        android:layout_width="146dp"
-        android:layout_height="99dp"
+        android:layout_width="176dp"
+        android:layout_height="117dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="4dp"
         android:background="@drawable/petname_background"
@@ -23,9 +23,10 @@
 
     <TextView
         android:id="@+id/pet_Name"
-        android:layout_width="127dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="36dp"
+        android:layout_width="156dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="48dp"
+        android:fontFamily="@font/amiko"
         android:maxLines="2"
         android:textColor="@color/white"
         android:textSize="15sp"
@@ -33,19 +34,19 @@
         app:layout_constraintBottom_toBottomOf="@id/petnames_background"
         app:layout_constraintStart_toStartOf="@id/petnames_background"
         app:layout_constraintTop_toTopOf="@id/petnames_background"
-        app:layout_constraintVertical_bias="0.477"
+        app:layout_constraintVertical_bias="0.487"
         tools:text="PetName" />
 
     <TextView
         android:id="@+id/pet_Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/pet_Name"
-        app:layout_constraintStart_toStartOf="@id/pet_Name"
-        tools:text="Description"
-        android:textSize="16sp"
         android:layout_marginTop="5dp"
-        android:visibility="gone"/>
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/pet_Name"
+        app:layout_constraintTop_toBottomOf="@id/pet_Name"
+        tools:text="Description" />
 
 
 
